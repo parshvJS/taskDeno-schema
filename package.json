@@ -1,0 +1,27 @@
+{
+  "name": "taskdeno-mongoose-model",
+  "version": "1.0.0",
+  "description": "just simple models of mongoose nothing else",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build": "npm run build:cjs && npm run build:esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parshvJS/taskDeno-schema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parshvJS/taskDeno-schema/issues"
+  },
+  "homepage": "https://github.com/parshvJS/taskDeno-schema#readme",
+  "dependencies": {
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12"
+  }
+}
